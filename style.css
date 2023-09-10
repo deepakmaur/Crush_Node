@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins',sans-serif;
+    
+}
+.divcookies{
+    width: 100%;
+    max-width: 365px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 25px;
+
+}
+
+.divcookies img{
+    max-width: 300px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.consent h2{
+    font-size: 24px;
+    margin-top: 7px;
+}
+
+.consent p{
+    font-size: 18px;
+    color: rgb(109, 104, 104);
+    margin: 5px 0px 5px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.but{
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins',sans-serif;
+    border-radius: 5px;
+    border: 2px solid rgb(210, 168, 90);
+    background-color: rgb(203, 163, 90);
+    color: white;
+    cursor: pointer;
+    transition: 0.5s ease;
+
+    
+}
+.but:hover{
+    background-color: white;
+    color: orange;
+    
+}
+
+.full{
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    background-color: rgb(203, 163, 90);
+}
+
+.full:hover{
+    background-color: white;
+    border: 2px solid rgb(210, 168, 90);
+}
+.div{
+    color: white;
+    margin-left: 15px;
+    text-align: center;
+    padding: 3px;
+    
+}
+
+.div2{
+    font-weight: 700;
+    margin-right: 15px;
+    z-index: 1;
+    color: rgb(210, 168, 90);
+}
+
